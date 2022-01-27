@@ -3,12 +3,14 @@ import Footer from './Components/Footer'
 import Header from './Components/Header'
 import About from './Components/About'
 import Items from './Components/Items'
+import TitleHook from './Components/TitleHook'
 const App =()=>{
   const [count, setCount]=useState(0)
 return(
   <div class="Container text-center  bg-success">
     <h1 style={{color:"red"}}>MY REACT PROJECT </h1>
     <div>
+      <TitleHook/>
     <Header />
     <Items/>
     <hr/>
